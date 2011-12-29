@@ -220,7 +220,7 @@
 			},
 			"each": {
 				_default: { $2: "$index, $value" },
-				open: "if($notnull_1){$.each($1a,function($2){with(this){",
+				open: "if($notnull_1){jQuery.each($1a,function($2){with(this){",
 				close: "}});}"
 			},
 			"if": {
